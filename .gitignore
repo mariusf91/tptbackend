@@ -1,0 +1,7 @@
+ThePhantomTroupe/Web.config
+ThePhantomTroupe/Views/Web.con
+packages/
+!packages/repositories.config
+ThePhantomTroupe/obj/
+ThePhantomTroupe/bin/
+.vs/

@@ -1,0 +1,16 @@
+﻿<div class="container">
+    <div class="row">
+        <div style="padding-top: 200px">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                @using (Html.BeginForm("RaiderIOCharacter", "Home", FormMethod.Post, new { id = "form-upload", @Class = "form-horizontal", enctype = "multipart/form-data" }))
+                {
+                    <input type="text" id="name" name="n" />
+                    <input type="submit" />
+                }
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+</div>
